@@ -1,7 +1,7 @@
 block customPhysicsSetup = {
 
 ## Paths to files with particle and physics processes definition
-        FileInPath particlesDef = "SimG4Core/CustomPhysics/data/particles.txt"
+        FileInPath particlesDef = "SimG4Core/CustomPhysics/data/particles_gluino_300_GeV.txt"
 #        FileInPath particlesDef = "SimG4Core/CustomPhysics/data/isa-slha.out"
         FileInPath processesDef = "SimG4Core/CustomPhysics/data/RhadronProcessList.txt"
 ## R-hadron physics setup
