@@ -1,3 +1,5 @@
+Block MASS   #
+#  PDG code   mass                 particle
       1000021   300.0     # ~g
       1000993   300.700   # ~g_glueball
       1009213   300.650   # ~g_rho+
@@ -29,4 +31,4 @@
      -1093314   301.300   # ~g_Xi*bar+
      -1093324   301.300   # ~g_Xi*bar0
      -1093334   301.600   # ~g_Omegabar+
-
+Block
