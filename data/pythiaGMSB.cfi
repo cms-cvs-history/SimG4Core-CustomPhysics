@@ -1,0 +1,45 @@
+source = PythiaSource 
+{ 
+
+  untracked double comEnergy = 14000
+  untracked int32 maxEvents = 0
+  untracked int32 pythiaPylistVerbosity = 0
+  untracked bool pythiaHepMCVerbosity = false
+  untracked int32 maxEventsToPrint = 0
+
+  PSet PythiaParameters = {
+
+    # This is a vector of ParameterSet names to be read, in this order
+    vstring parameterSets = {
+      "pythiaUESettings",
+      "pythia", 
+      "processParameters",
+      "SLHAParameters"     
+	}
+
+include "Configuration/Generator/data/PythiaUESettings.cfi"
+
+ vstring pythia = {
+#       "MSTP(61)=0",   # no ISR
+#       "MSTP(71)=0",   # no FSR
+#       "MSTP(81)=0",   # no MPI
+#       "MSTP(111)=0", # no hadronisation
+       "MSTP(128) = 2",# resonance decay products are not storted in documentation section of the event record
+       "MSTJ(22) = 1"  # decay all unstable particles, regadless of their ctau
+      }
+
+    vstring processParameters = {
+        "MSEL=39                  ! All SUSY processes ",
+        "IMSS(1) = 11             ! Spectrum from external SLHA file",
+	"IMSS(21) = 33            ! LUN number for SLHA File (must be 33) ",
+        "IMSS(22) = 33",
+	"IMSS(11) = 1             ! gravitino as LSP ",
+	"RMSS(21) = 4000000       ! gravitino mass in eV"     
+    }
+    
+     vstring SLHAParameters = {        
+       'SLHAFILE = "isa-slha.out" '
+    }
+    
+  }
+}
