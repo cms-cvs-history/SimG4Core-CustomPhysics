@@ -1,3 +1,5 @@
+include "Configuration/Generator/data/PythiaUESettings.cfi"
+
 source = PythiaSource 
 { 
 
@@ -17,7 +19,7 @@ source = PythiaSource
       "SLHAParameters"     
 	}
 
-include "Configuration/Generator/data/PythiaUESettings.cfi"
+    using pythiaUESettingsBlock
 
  vstring pythia = {
 #       "MSTP(61)=0",   # no ISR
