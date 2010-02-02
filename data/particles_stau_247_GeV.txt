@@ -1,7 +1,11 @@
+Block MASS   #
+#  PDG code   mass                 particle
         1000015    246.639  #  tau1
         2000011    249.894   #  er-            
         2000013    249.894   #  mur-           
         -1000015    246.639  #  tau1bar
         -2000011    249.894  #  er-bar            
-        -2000013    249.894  #  mur-bar           
+        -2000013    249.894  #  mur-bar    
+Block       
+
 
