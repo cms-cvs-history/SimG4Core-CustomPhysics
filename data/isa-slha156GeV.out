@@ -274,9 +274,10 @@ DECAY   1000013  1.29704759E-01   # MUL-  decays
       3.56468991E-05    3     -1000015        13        15             # MUL-   -->  TAU1+  MU-    TAU-        
       2.45297353E-16    2           13   1000039                       # MUL-   -->  MU-    GVSS               
 #         PDG         Width
-DECAY   1000015  7.30616737E-19   # TAU1- decays
+#DECAY   1000015  7.30616737E-19   # TAU1- decays
+DECAY   1000015  0.000000000000   # TAU1- decays
 #          BR          NDA       ID1     ID2       ID3       ID4
-      1.00000000E+00    2           15   1000039                       # TAU1-  -->  TAU-   GVSS               
+#      1.00000000E+00    2           15   1000039                       # TAU1-  -->  TAU-   GVSS               
 #         PDG         Width
 DECAY   1000012  1.62422791E-01   # NUEL  decays
 #          BR          NDA       ID1     ID2       ID3       ID4

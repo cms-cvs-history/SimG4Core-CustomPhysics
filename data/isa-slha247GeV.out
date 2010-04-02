@@ -122,7 +122,7 @@ DECAY         6  1.14680779E+00   # TP    decays
       1.11111112E-01    3          -11        12         5             # TP     -->  E+     NUE    BT          
       1.11111112E-01    3          -13        14         5             # TP     -->  MU+    NUM    BT          
       1.11111112E-01    3          -15        16         5             # TP     -->  TAU+   NUT    BT          
-#         PDG         Width
+         PDG         Width
 DECAY   1000021  8.17842579E+00   # GLSS  decays
 #          BR          NDA       ID1     ID2       ID3       ID4
       3.38079291E-04    3      1000024         5        -6             # GLSS   -->  W1SS+  BT     TB          
@@ -279,9 +279,10 @@ DECAY   1000013  2.15667397E-01   # MUL-  decays
       1.18711223E-05    3     -1000015        13        15             # MUL-   -->  TAU1+  MU-    TAU-        
       2.22509169E-14    2           13   1000039                       # MUL-   -->  MU-    GVSS               
 #         PDG         Width
-DECAY   1000015  1.10797991E-16   # TAU1- decays
+#DECAY   1000015  1.10797991E-16   # TAU1- decays
+DECAY   1000015  0.000000000000   # TAU1- decays 
 #          BR          NDA       ID1     ID2       ID3       ID4
-      1.00000000E+00    2           15   1000039                       # TAU1-  -->  TAU-   GVSS               
+#      1.00000000E+00    2           15   1000039                       # TAU1-  -->  TAU-   GVSS               
 #         PDG         Width
 DECAY   1000012  2.36179605E-01   # NUEL  decays
 #          BR          NDA       ID1     ID2       ID3       ID4
