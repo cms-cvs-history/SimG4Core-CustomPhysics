@@ -1,6 +1,5 @@
 Block MASS   #
 #  PDG code   mass                 particle
-
         1000006 400.000   # ~t_1
 	1000612 400.325   # ~T+  
 	1000622 400.325   # ~T0  
